@@ -20,7 +20,7 @@
 	
 	# use the script 'stripsecret.sh' to get the secret messages from images with secrets
 	
-# 3. Encrypt & decrypt images, hide secret message in images using scripts
+# 3. Encrypt & decrypt images, hide secret message in images using steganographical software
 	# download openstego from https://www.openstego.com/ and install on the Windows VM
 	
 	# download a jpg image and create a secret message in text file 
