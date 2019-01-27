@@ -10,3 +10,5 @@
 
 ## Task 2: Access Gmail SMTP service from Kali
 
+Key communication information should be captured by Wireshark on the Kali VM.
+
