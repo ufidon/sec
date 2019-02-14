@@ -1,5 +1,5 @@
 # its250 week 6
-Vulnerability assessment.
+Vulnerability Assessment
 
 1. Follow this Youtube video to expand the Hard Disk to at least 60GB and the memory to at least 4GB for the Kali Linux VM. It is NOT necessary to follow the way I demonstrated in class. 
 * [Increase the size of Kali Linux / ubuntu in Virtualbox and VMware](https://youtu.be/MQnqvUvMTA8)
