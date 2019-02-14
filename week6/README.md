@@ -9,7 +9,7 @@ Vulnerability assessment.
 or this video
 * [Installing And Configuring OpenVAS](https://youtu.be/fEANg6gyV5A)
 
-3 Follow this tutorial to assess the Windows Server 2012 VM and the Ubuntu VM's vulnerabilities
+3. Follow this tutorial to assess the Windows Server 2012 VM and the Ubuntu VM's vulnerabilities
 * [Vulnerability Analysis With OpenVAS](https://youtu.be/koMo_fSQGlk)
 
 Optional:
