@@ -23,6 +23,7 @@ In this course, we will create two virtual machines one for Windows Server, the 
   * Ubuntu 18.04 LTS+
 * _Software_
   * [VirtualBox](https://www.virtualbox.org/)
+  * [VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)
 
 # Reference textbooks
 * [Introduction to Computer Security](https://www.pearson.com/us/higher-education/program/Goodrich-Introduction-to-Computer-Security/PGM218035.html)
