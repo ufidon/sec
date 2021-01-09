@@ -1,0 +1,63 @@
+# its250
+Online resources and examples
+
+## Module03: Computer security
+* [Computer security](https://en.wikipedia.org/wiki/Computer_security)
+* [Physical security](https://en.wikipedia.org/wiki/Physical_security)
+  * [Physical access](https://en.wikipedia.org/wiki/Physical_access)
+    * [Safe](https://en.wikipedia.org/wiki/Safe)
+      * [Safe-cracking](https://en.wikipedia.org/wiki/Safe-cracking)
+      * [Bank vault](https://en.wikipedia.org/wiki/Bank_vault)
+      * [Safe room](https://en.wikipedia.org/wiki/Safe_room)
+    * [Door security](https://en.wikipedia.org/wiki/Door_security)
+    * [Lock and key](https://en.wikipedia.org/wiki/Lock_and_key)
+      * [Electronic lock](https://en.wikipedia.org/wiki/Electronic_lock)
+      * [Time-delay combination locks](https://en.wikipedia.org/wiki/Time-delay_combination_locks)
+    * [Concealment device](https://en.wikipedia.org/wiki/Concealment_device)
+  * [Physical information security](https://en.wikipedia.org/wiki/Physical_information_security)
+    * [Physical security information management](https://en.wikipedia.org/wiki/Physical_security_information_management)
+* [Access control](https://en.wikipedia.org/wiki/Access_control)
+  * [Authorization](https://en.wikipedia.org/wiki/Authorization)
+  * [Computer access control](https://en.wikipedia.org/wiki/Computer_access_control)
+    * [Login](https://en.wikipedia.org/wiki/Login)
+    * [Principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
+      * [Capability-based security](https://en.wikipedia.org/wiki/Capability-based_security)
+    * [Access Control Matrix](https://en.wikipedia.org/wiki/Access_Control_Matrix)
+      * [Access-control list](https://en.wikipedia.org/wiki/Access-control_list)
+    * [Object-capability model](https://en.wikipedia.org/wiki/Object-capability_model)
+    * [Role-based access control](https://en.wikipedia.org/wiki/Role-based_access_control)
+* [Authentication](https://en.wikipedia.org/wiki/Authentication)
+  * [Electronic authentication](https://en.wikipedia.org/wiki/Electronic_authentication)
+  * [Strong authentication](https://en.wikipedia.org/wiki/Strong_authentication)
+    * [Multi-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
+      * [FIDO Alliance](https://en.wikipedia.org/wiki/FIDO_Alliance)
+* [Hardware security](https://en.wikipedia.org/wiki/Hardware_security)
+  * [Hardware security module](https://en.wikipedia.org/wiki/Hardware_security_module)
+  * [Protection ring](https://en.wikipedia.org/wiki/Protection_ring)
+  * *hardware vulnerability*
+    * [Meltdown (security vulnerability)](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability))
+    * [Spectre (security vulnerability)](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))
+* *Software security*
+  * [Operating system](https://en.wikipedia.org/wiki/Operating_system)
+    * [Security-focused operating system](https://en.wikipedia.org/wiki/Security-focused_operating_system)
+    * [Trusted operating system](https://en.wikipedia.org/wiki/Trusted_operating_system)
+      * [Security-evaluated operating system](https://en.wikipedia.org/wiki/Security-evaluated_operating_system)
+  * [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computing))
+    * [Common Vulnerabilities and Exposures(CVE)](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
+      * [Common Vulnerability Scoring System](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System)
+      * [cve](https://cve.mitre.org/)
+    * *Common causes*
+      * [Weak passwords](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords)
+        * [Password strength](https://en.wikipedia.org/wiki/Password_strength)
+        * [Social engineering (security)](https://en.wikipedia.org/wiki/Social_engineering_(security))
+      * [Software bug](https://en.wikipedia.org/wiki/Software_bug)
+      * [Improper setting of File-system permissions](https://en.wikipedia.org/wiki/File-system_permissions)
+
+## Old software
+* _operating systems_
+  * [WinWorld](https://winworldpc.com/library/operating-systems)
+  * [Old versions of Linux](https://soft.lafibre.info/)
+  * [archiveos](https://archiveos.org/)
+* _applicaitons_
+  * [oldversion](http://www.oldversion.com/)
+  * [oldapps](https://www.oldapps.com/)

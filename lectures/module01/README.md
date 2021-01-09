@@ -1,0 +1,38 @@
+# its250
+Online resources and examples
+
+## Module01: System assurance Overview
+* [Information assurance](https://en.wikipedia.org/wiki/Information_assurance)
+  * [Software assurance](https://en.wikipedia.org/wiki/Software_assurance)
+* [Information security](https://en.wikipedia.org/wiki/Information_security)
+  * *CIANA model*
+    * [Confidentiality](https://en.wikipedia.org/wiki/Confidentiality)
+    * [Integrity](https://en.wikipedia.org/wiki/Data_integrity)
+    * [Accountability](https://en.wikipedia.org/wiki/Log_file)
+    * [Non-repudiation](https://en.wikipedia.org/wiki/Non-repudiation)
+    * [Availability](https://en.wikipedia.org/wiki/Availability)
+  * [Computer security](https://en.wikipedia.org/wiki/Computer_security)
+  * [Network security](https://en.wikipedia.org/wiki/Network_security)
+  * [Mobile security](https://en.wikipedia.org/wiki/Mobile_security)
+* [IT risk management](https://en.wikipedia.org/wiki/IT_risk_management)
+  * [IT risk](https://en.wikipedia.org/wiki/IT_risk)
+  * [Risk management](https://en.wikipedia.org/wiki/Risk_management)
+  * [Enterprise risk management](https://en.wikipedia.org/wiki/Enterprise_risk_management)
+* [Penetration test](https://en.wikipedia.org/wiki/Penetration_test)
+  * [Cyberattack](https://en.wikipedia.org/wiki/Cyberattack)
+  * [Cyberwarfare](https://en.wikipedia.org/wiki/Cyberwarfare)
+  * [List of computer security certifications](https://en.wikipedia.org/wiki/List_of_computer_security_certifications)
+    * [Hacker](https://en.wikipedia.org/wiki/Hacker)
+      * [Hacker culture](https://en.wikipedia.org/wiki/Hacker_culture)
+      * [Security hacker](https://en.wikipedia.org/wiki/Security_hacker)
+      * [Certified Ethical Hacker](https://en.wikipedia.org/wiki/Certified_Ethical_Hacker)
+* [Vulnerability](https://en.wikipedia.org/wiki/Vulnerability_(computing))
+  * [Common Vulnerabilities and Exposures](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
+  * [Vulnerability management](https://en.wikipedia.org/wiki/Vulnerability_management)
+* [Exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security))
+  * [Exploit kit](https://en.wikipedia.org/wiki/Exploit_kit)
+    * [Metasploit Project](https://en.wikipedia.org/wiki/Metasploit_Project)
+* [Access control](https://en.wikipedia.org/wiki/Access_control)
+* [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
+## References
+* [Hacking, 2nd Edition](https://nostarch.com/hacking2.htm)
