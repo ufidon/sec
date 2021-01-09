@@ -42,16 +42,24 @@ sudo apt upgrade -y
 sudo apt install apt-transport-https dirmngr vim geany okular
 sudo apt install p7zip-full build-essential gcc perl cmake automake curl git 
 ```
-   * (10%)Install VMWare tool/VirtualBox Guest Additions in the guest Ubuntu.
+   * (5%)Install VMWare tool/VirtualBox Guest Additions in the guest Ubuntu.
 
 3. (40%)Install Windows server
 
    * (5%)Download [Windows Server 2019 ISO](https://www.microsoft.com/en-us/windows-server)
    * (15%)Install this Windows server
    * (10%)Enable ping response in the firewall settings of the guest Windows server
-   * (10%)Install VMWare tool/VirtualBox Guest Additions in the guest Windows server
+   * (5%)Install VMWare tool/VirtualBox Guest Additions in the guest Windows server
 
-4. (Optional)Install Kali Linux
+4. (10%, 2% each) Show the NAT network is working
+	 * On the Windows host, find the ip configuration of Ethernet adapter VMware Network Adapter VMnet8: 	ipconfig /all
+	 * On the Windows Server VM, find its ip configuration of the Ethernet adapter connected to the NAT: 	ipconfig /all
+	 * On the Ubuntu Linux VM, find its ip configuration of the Ethernet adapter connected to the NAT: 	ifconfig -a
+	 * from the Windows server VM ping the Ubuntu VM
+	 * from the Ubuntu VM ping the Windows server VM
+
+
+5. (Optional)Install Kali Linux
 Create a VM for Kali Linux then follow the steps below to setup Kali Linux in its VM:
 
    * Download [Kali Linux](https://www.kali.org/downloads/) from its official website --- [https://www.kali.org/](https://www.kali.org/). Choose the 64-Bit Installer ISO.
