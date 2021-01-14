@@ -59,6 +59,9 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git
 	 * from the Ubuntu VM ping the Windows server VM
 
 5. (20%) **Review questions**
+
+In the following two practices, screenshots of at least TEN commands are required to put in the lab report. To decrease the number of screenshots, you may put 5 commands in one screenshot, then two screenshots are sufficient.
+
    1. (10%) Practice basic Linux commands in the [Linux commands cheatsheet](./commandCheatsheets/LinuxCommandMemento.pdf)
    2. (10%) Practice basic Windows commands in the [Windows commands cheatsheet](./commandCheatsheets/CommandPromptCheatsheet.pdf)
 
@@ -84,6 +87,10 @@ sudo apt install apt-transport-https dirmngr
 sudo apt install p7zip-full build-essential gcc perl cmake automake curl git geany okular vim
 ```
    * Install VMWare tool/VirtualBox Guest Additions in the guest Kali Linux.
+
+
+**demo video**
+[Lab01: Setup lab environment](https://youtu.be/C1196ysEem4)
 
 ## References
 * *Check virtualization availability*
