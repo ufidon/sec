@@ -89,7 +89,8 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git gea
    * Install VMWare tool/VirtualBox Guest Additions in the guest Kali Linux.
 
 
-**demo video**
+**Demo video**
+
 [Lab01: Setup lab environment](https://youtu.be/C1196ysEem4)
 
 ## References
