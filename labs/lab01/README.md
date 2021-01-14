@@ -26,11 +26,11 @@ Your PC must support virtualization which is popular today, following the sectio
      * Enable network promiscuous mode
 
 
-2. (40%)Install Ubuntu Linux
+2. (30%)Install Ubuntu Linux
 Follow the steps below to setup Ubuntu mate Linux in its VM:
 
    * (5%)Download [Ubuntu Mate Linux](https://ubuntu-mate.org/download/) from its official website --- [https://ubuntu-mate.org](https://ubuntu-mate.org). Choose the 64-Bit ISO.
-   * (15%)Install the downloaded Ubuntu Mate Linux
+   * (10%)Install the downloaded Ubuntu Mate Linux
    * (10%)Update Ubuntu Mate Linux then install popular tools
 
 
@@ -44,10 +44,10 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git
 ```
    * (5%)Install VMWare tool/VirtualBox Guest Additions in the guest Ubuntu.
 
-3. (40%)Install Windows server
+3. (30%)Install Windows server
 
    * (5%)Download [Windows Server 2019 ISO](https://www.microsoft.com/en-us/windows-server)
-   * (15%)Install this Windows server
+   * (10%)Install this Windows server
    * (10%)Enable ping response in the firewall settings of the guest Windows server
    * (5%)Install VMWare tool/VirtualBox Guest Additions in the guest Windows server
 
@@ -58,8 +58,11 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git
 	 * from the Windows server VM ping the Ubuntu VM
 	 * from the Ubuntu VM ping the Windows server VM
 
+5. (20%) **Review questions**
+   1. (10%) Practice basic Linux commands in the [Linux commands cheatsheet](./commandCheatsheets/LinuxCommandMemento.pdf)
+   2. (10%) Practice basic Windows commands in the [Windows commands cheatsheet](./commandCheatsheets/CommandPromptCheatsheet.pdf)
 
-5. (Optional)Install Kali Linux
+6. (Optional)Install Kali Linux
 Create a VM for Kali Linux then follow the steps below to setup Kali Linux in its VM:
 
    * Download [Kali Linux](https://www.kali.org/downloads/) from its official website --- [https://www.kali.org/](https://www.kali.org/). Choose the 64-Bit Installer ISO.
@@ -103,8 +106,10 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git gea
   * [Comparison of Linux distributions](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions)
   * [Light-weight Linux distribution](https://en.wikipedia.org/wiki/Light-weight_Linux_distribution)
 * [Windows Server evaluation center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server)
-* *Learn Linux*
+* *command line basics*
   * [Linux journey](https://linuxjourney.com/)
+  * [Windows commands cheatsheet](./commandCheatsheets/CommandPromptCheatsheet.pdf)
+  * [Linux commands cheatsheet](./commandCheatsheets/LinuxCommandMemento.pdf)
 * _old os_
   * [WinWorld](https://winworldpc.com/library/operating-systems)
   * [Old versions of Linux](https://soft.lafibre.info/)
