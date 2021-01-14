@@ -28,9 +28,26 @@ Online resources and examples
     * [Role-based access control](https://en.wikipedia.org/wiki/Role-based_access_control)
 * [Authentication](https://en.wikipedia.org/wiki/Authentication)
   * [Electronic authentication](https://en.wikipedia.org/wiki/Electronic_authentication)
+    * [Identity management](https://en.wikipedia.org/wiki/Identity_management)
+      * [Identity-management system](https://en.wikipedia.org/wiki/Identity-management_system)
   * [Strong authentication](https://en.wikipedia.org/wiki/Strong_authentication)
     * [Multi-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
       * [FIDO Alliance](https://en.wikipedia.org/wiki/FIDO_Alliance)
+  * [Single sign-on](https://en.wikipedia.org/wiki/Single_sign-on)
+    * [Authentication server](https://en.wikipedia.org/wiki/Authentication_server)
+    * [Authentication protocol](https://en.wikipedia.org/wiki/Authentication_protocol)
+      * [RADIUS](https://en.wikipedia.org/wiki/RADIUS)
+      * [Kerberos](https://en.wikipedia.org/wiki/Kerberos_(protocol))
+      * [Extensible Authentication Protocol (EAP)](https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol)
+        * [Protected Extensible Authentication Protocol](https://en.wikipedia.org/wiki/Protected_Extensible_Authentication_Protocol)
+      * [Mutual authentication](https://en.wikipedia.org/wiki/Mutual_authentication)
+        * [Challenge–response authentication](https://en.wikipedia.org/wiki/Challenge%E2%80%93response_authentication)
+    * [List of single sign-on implementations](https://en.wikipedia.org/wiki/List_of_single_sign-on_implementations)
+      * [Microsoft account](https://en.wikipedia.org/wiki/Microsoft_account)
+    * _Application specified authentication_
+      * [HTTP Basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
+      * [SMTP Authentication](https://en.wikipedia.org/wiki/SMTP_Authentication)
+      * [RDP Network Level Authentication](https://en.wikipedia.org/wiki/Network_Level_Authentication)
 * [Hardware security](https://en.wikipedia.org/wiki/Hardware_security)
   * [Hardware security module](https://en.wikipedia.org/wiki/Hardware_security_module)
   * [Protection ring](https://en.wikipedia.org/wiki/Protection_ring)
@@ -53,7 +70,9 @@ Online resources and examples
       * [Software bug](https://en.wikipedia.org/wiki/Software_bug)
       * [Improper setting of File-system permissions](https://en.wikipedia.org/wiki/File-system_permissions)
 
-## Old software
+## References
+* [Introduction to Attack Techniques](https://samsclass.info/123/A2020.htm)
+* [Free Ethical Hacking Tutorials for Beginner: Learn Online Course](https://www.guru99.com/ethical-hacking-tutorials.html)
 * _operating systems_
   * [WinWorld](https://winworldpc.com/library/operating-systems)
   * [Old versions of Linux](https://soft.lafibre.info/)

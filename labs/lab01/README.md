@@ -103,6 +103,8 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git gea
   * [Comparison of Linux distributions](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions)
   * [Light-weight Linux distribution](https://en.wikipedia.org/wiki/Light-weight_Linux_distribution)
 * [Windows Server evaluation center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server)
+* *Learn Linux*
+  * [Linux journey](https://linuxjourney.com/)
 * _old os_
   * [WinWorld](https://winworldpc.com/library/operating-systems)
   * [Old versions of Linux](https://soft.lafibre.info/)

@@ -5,6 +5,7 @@ Online resources and examples
 * [Information assurance](https://en.wikipedia.org/wiki/Information_assurance)
   * [Software assurance](https://en.wikipedia.org/wiki/Software_assurance)
 * [Information security](https://en.wikipedia.org/wiki/Information_security)
+  * [Asset](https://en.wikipedia.org/wiki/Asset_(computer_security))
   * *CIANA model*
     * [Confidentiality](https://en.wikipedia.org/wiki/Confidentiality)
     * [Integrity](https://en.wikipedia.org/wiki/Data_integrity)
