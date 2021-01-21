@@ -51,6 +51,17 @@ sudo apt install p7zip-full build-essential gcc perl cmake automake curl git
    * (10%)Enable ping response in the firewall settings of the guest Windows server
    * (5%)Install VMWare tool/VirtualBox Guest Additions in the guest Windows server
 
+   * Extending the Trial Period (If you have an old one)
+     In Powershell, execute this command to see how many days you have left in your trial:
+
+     slmgr -dlv
+
+     Execute this command to extend the trial for another 180 days:
+
+     slmgr -rearm
+
+     You can extend the trial six times, for up to three years.
+
 4. (10%, 2% each) Show the NAT network is working
 	 * On the Windows host, find the ip configuration of Ethernet adapter VMware Network Adapter VMnet8: 	ipconfig /all
 	 * On the Windows Server VM, find its ip configuration of the Ethernet adapter connected to the NAT: 	ipconfig /all
