@@ -25,7 +25,7 @@ You may do this lab on your host Windows or guest Windows.
    * (8%) Use AESCrypt to encrypt then decrypt a file
 
 3. (30%) Authenticity and non-repudiation: Gpg4win
-   * (6%) Download [Gpg4win](https://gpg4win.org/) and its signature, check its integrity then install it.
+   * (6%) Download [Gpg4win](https://gpg4win.org/) and its signature, **use version 3.1.14**, check its integrity then install it.
    * (8%) Create two pairs of RSA keys, one pair for you, the other for a virtual lab partner
    * (8%) Run Kleopatra, import the Intevation file distribution key, then Verify the downloaded signature against the downloaded Gpg4win archive file
    * (8%) Sign/Encrypt an image for your virtual lab partner, then decrypt/verify the signed/encrypted image file as your virtual lab partner
