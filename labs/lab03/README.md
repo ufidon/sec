@@ -3,10 +3,10 @@ Online resources and examples
 
 ## Lab03: CVE investigation
 
-### Description
-In this lab, take an investigation on the vulnerabilities of Windows, Linux and MacOS. Then lower Windows server security settings for future labs.
+### 1. Description
+In this lab, take an investigation on the vulnerabilities of Windows, Linux and MacOS, then lower Windows server security settings for future labs.
 
-### Steps
+### 2. Steps
 1. (30%, 10% for each operating system) CVE investigation. On the [official cvedetails website](https://www.cvedetails.com/), find ONE 10-score vulnerability for each of Windows, Linux and MacOS. Choose Product search on the left panel, type in Windows, Linux and MacOS respectively. For each vulnerability, gather the following information (2% for each)
    1. vulnerability type
    2. products affected
@@ -20,7 +20,7 @@ In this lab, take an investigation on the vulnerabilities of Windows, Linux and 
    4. Turning Off the Firewall
    5. Lowering DEP Settings
 
-### (20%, 5% each) Review question
+### 3. Review question(20%, 5% each) 
 Given the vulnerability [CVE-2008-4037](https://www.cvedetails.com/cve/CVE-2008-4037/) show the process of finding its metrics below following [Common Vulnerability Scoring System](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System).
 1. Expoitability
 2. impact
