@@ -27,6 +27,21 @@ Given the vulnerability [CVE-2008-4037](https://www.cvedetails.com/cve/CVE-2008-
 3. CVSS score
 4. CVSS vector
 
+### 4. The Heist of the Century(Optional)
+A typical cyberattack consists of the [following steps](https://www.beyondtrust.com/blog/entry/7-steps-cyber-attack-can-protect-windows-privileged-accounts):
+
+1. Reconnaissance
+2. Scanning
+3. Access and Escalation
+4. Exfiltration
+5. Sustainment
+6. Assault
+7. Obfuscation
+
+Watch the movie [The Heist of the Century](https://en.wikipedia.org/wiki/The_Heist_of_the_Century_(film)), could you identify and describe the robbing steps similar to a typical cyberattack?
+
+
+
 ## References:
 * [cve](https://cve.mitre.org/)
   * [National Vulnerability Database](https://nvd.nist.gov/)
