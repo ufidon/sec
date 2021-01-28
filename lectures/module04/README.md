@@ -54,9 +54,11 @@ Online resources and examples
 ### Network security
 * [Network security](https://en.wikipedia.org/wiki/Network_security)
   * [Network interface layer security](https://en.wikipedia.org/wiki/Network_interface_layer_security)
+  * [Wireless security](https://en.wikipedia.org/wiki/Wireless_security)
 * [Cyberattack](https://en.wikipedia.org/wiki/Cyberattack)
   * [Promiscuous mode](https://en.wikipedia.org/wiki/Promiscuous_mode)
   * *Passive attack*
+    * [Sniffing attack](https://en.wikipedia.org/wiki/Sniffing_attack)
     * [Packet analyzer](https://en.wikipedia.org/wiki/Packet_analyzer)
       * [Wireshark](https://en.wikipedia.org/wiki/Wireshark)
         * [wireshark](https://www.wireshark.org/)
@@ -69,17 +71,26 @@ Online resources and examples
         * [zenmap](https://nmap.org/zenmap/)
       * [Hping](https://en.wikipedia.org/wiki/Hping)
         * [hping](http://www.hping.org/)
+    * [Aircrack-ng](https://en.wikipedia.org/wiki/Aircrack-ng)
   * *Active attack*
-    * [MAC spoofing](https://en.wikipedia.org/wiki/MAC_spoofing)
-    * [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing)
-    * [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
-      * [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding)
-    * [IP address spoofing](https://en.wikipedia.org/wiki/IP_address_spoofing)
+    * [Spoofing attack](https://en.wikipedia.org/wiki/Spoofing_attack)
+      * [MAC spoofing](https://en.wikipedia.org/wiki/MAC_spoofing)
+      * [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing)
+      * [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
+        * [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding)
+      * [Protocol spoofing](https://en.wikipedia.org/wiki/Protocol_spoofing)
+      * [IP address spoofing](https://en.wikipedia.org/wiki/IP_address_spoofing)
     * [VLAN hopping](https://en.wikipedia.org/wiki/VLAN_hopping)
     * [Man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
       * [Proxy server](https://en.wikipedia.org/wiki/Proxy_server)
+      * [Session hijacking](https://en.wikipedia.org/wiki/Session_hijacking)
+      * [The Mitnick attack](http://wiki.cas.mcmaster.ca/index.php/The_Mitnick_attack)
+      * [SEED network security labs](https://seedsecuritylabs.org)
     * [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack)
       * [Smurf attack](https://en.wikipedia.org/wiki/Smurf_attack)
+      * [SYN flood](https://en.wikipedia.org/wiki/SYN_flood)
+        * [TCP reset attack](https://en.wikipedia.org/wiki/TCP_reset_attack)
+        * [TCP sequence prediction attack](https://en.wikipedia.org/wiki/TCP_sequence_prediction_attack)
 
 ### Network defense
 * [Firewall (computing)](https://en.wikipedia.org/wiki/Firewall_(computing))
@@ -89,4 +100,11 @@ Online resources and examples
     * [Datagram Transport Layer Security](https://en.wikipedia.org/wiki/Datagram_Transport_Layer_Security)
   * [Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
   * [Virtual private network](https://en.wikipedia.org/wiki/Virtual_private_network)
+* [Intrusion detection system](https://en.wikipedia.org/wiki/Intrusion_detection_system)
+  * [Wireless intrusion prevention system](https://en.wikipedia.org/wiki/Wireless_intrusion_prevention_system)
+* [Security information and event management](https://en.wikipedia.org/wiki/Security_information_and_event_management)
+
+### Reference
+* [Kali Linux Wireless Penetration Testing Beginner's Guide](https://www.packtpub.com/product/kali-linux-wireless-penetration-testing-beginner-s-guide-third-edition/9781788831925)
+* [Kali Linux Wireless Penetration Testing - Novice to Pro!](https://www.udemy.com/course/kali-linux-wireless-penetration-testing-novice-to-pro/)
   

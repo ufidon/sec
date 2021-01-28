@@ -40,7 +40,9 @@ A typical cyberattack consists of the [following steps](https://www.beyondtrust.
 
 Watch the movie [The Heist of the Century](https://en.wikipedia.org/wiki/The_Heist_of_the_Century_(film)), could you identify and describe the robbing steps similar to a typical cyberattack?
 
+**Demo video**
 
+* [CVE Investigation](https://youtu.be/Ny310X0SiDc)
 
 ## References:
 * [cve](https://cve.mitre.org/)
