@@ -101,6 +101,49 @@ iisreset.exe /stop
    4. (10%) Save and investigate the Wireshark capture in Ubuntu. Can you extract the login credential and the files transferred?
 3. (Optional)Following [How to Install Nginx, PHP, and MySQL on Windows 10](https://codefaq.org/server/how-to-install-nginx-php-mysql-on-windows-10/) to complete the following tasks. 
    1. install Nginx, PHP and MySQL on the Windows server VM
+      1. Download and install [VC_Redist - x64: vc_redist.x64.exe](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0); download [nginx/Windows archive](http://nginx.org/en/download.html) and extract to WEBPATH\nginx (e.g: C:\WebServer\nginx); download [VS16 x64 Non Thread Safe zip file](https://windows.php.net/download/) and extract to WEBPATH\php; download [Windows (x86, 64-bit), ZIP Archive](https://dev.mysql.com/downloads/mysql/) and extract to WEBPATH\mysql. 
+      2. Initialize MySQL with commands below inside command prompt with Administrator privilege.
+      ```batch
+      @echo off
+      set WEBPATH=C:\WebServer
+      set MYSQLPATH=%WEBPATH%\mysql
+      cd /d %MYSQLPATH%\bin
+      mysqld --initialize-insecure
+      mysqld --console
+      ```
+      Open a new command prompt with Administrator privilege, run the following command to enable authentication method from caching_sha2_password  back to native.
+      ```batch
+      REM: 1. login in MySQL
+      mysql -u root
+      REM: 2. inside MySQL prompt
+      mysql>>> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
+      mysql>>> FLUSH PRIVILEGES;
+      mysql>>> quit;
+      ```
+      3. Setup environment variables. Open a new command prompt with Administrator privilege, run the following command to add the folders of Nginx, PHP and MySQL to PATH.
+      ```batch
+      @echo off
+      REM: 1. add the folders of Nginx, PHP and MySQL to PATH
+      set WEBPATH=C:\WebServer
+      set NGINXEXE=%WEBPATH%\nginx
+      set PHPEXE=%WEBPATH%\php
+      set MYSQLEXE=%WEBPATH%\mysql\bin
+      setx PATH "%PATH%;NGINXEXE;PHPEXE;MYSQLEXE" /m
+      REM: 2. verify settings are OK
+      php -v
+      mysql -v
+      nginx -v
+      ```
+      4. Configure PHP extensions, copy [php.ini](./code/setweb/php.ini) to WEBPATH\php
+      5. Configure service startup script, copy [myserver.bat](./code/setweb/myserver.bat) and [RunHiddenConsole.7z](./code/setweb/RunHiddenConsole.7z) to WEBPATH\nginx, extract RunHiddenConsole.7z there.
+      6. Configure Nginx, copy [nginx.conf](./code/setweb/nginx.conf) to WEBPATH\nginx\conf and overwrite the target file.
+      7. Start the servers in a command prompt
+      ```batch
+      REM: 1. Start Nginx/MySQL/PHP servers (Do not forget to Allow Access when Windows Defender Firewall is asking for permission)
+      myserver.bat start
+      REM: 2. Stop Nginx/MySQL/PHP servers
+      myserver.bat stop
+      ```
    2. Copy [demo_post.php](./code/demo_post.php) to the default website of Nginx
    3. From Ubuntu, start Wireshark capture, then access and play with http://windowsServerIP/demo_post.php.
    4. Save and investigate the Wireshark capture in Ubuntu. Can you extract the money transactions?
@@ -133,6 +176,9 @@ iisreset.exe /stop
 * [TheSSS (The Smallest Server Suite)](https://sourceforge.net/projects/thesss/)
 * [filezilla](https://filezilla-project.org/)
 * [How to Install Nginx, PHP, and MySQL on Windows 10](https://codefaq.org/server/how-to-install-nginx-php-mysql-on-windows-10/)
+  * [Is it possible to use environment variables in php.ini?](https://stackoverflow.com/questions/858431/is-it-possible-to-use-environment-variables-in-php-ini)
+  * [Server block example](https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/)
+  * [How To Set Up Nginx Server Blocks on Ubuntu 20.04](https://linuxize.com/post/how-to-set-up-nginx-server-blocks-on-ubuntu-20-04/)
 * *Linux server*
   * [Ubuntu server](https://ubuntu.com/server/docs)
 * *Windows server*
