@@ -5,7 +5,7 @@ Online resources and examples
 
 ### 1. Description
 
-In this lab, practice the following techniques:
+In this lab, practice the following ethical hacking techniques:
 
 * Install and investigate services and ports on Windows server
 * Perform network reconnaissance and scanning
@@ -90,18 +90,20 @@ This lab is a combination of [Project 5: nmap](https://samsclass.info/123/proj10
       nmap -sU -p53 windowsServerIp
       # 3. scan TCP port 22
       nmap -sT -p22 windowsServerIp
-      # 4. FTP bounce scan
-      nmap -p 22,25,135 -Pn -v -b windowsServerIp
+      # 4. FTP bounce scan(Start FTP server before run this command)
+      nmap -p 22,25,135 -Pn -v -b user:pass@FtpServerIP:port windowsServerIp
+      # example
+      sudo nmap -p 22,25,135 -Pn -v -b test:12345678@192.168.153.130:21 192.168.153.130
       ```
 
 2. (20%, 5% for each) Network traffic credential extraction. This task can be done on the Windows server VM, the Ubuntu VM or your host.
    1. Examine network layers: link layer, internet protocol layer, transmission control protocol layer and application layer. From Samsclass website, download the following FTP capture file and open it in Wireshark.
    [FTPlogin.pcapng](https://samsclass.info/123/proj14/FTPlogin.pcapng)
-   2. Find the FTP password of user john.
-   3. From Samsclass website, download the following HTTP capture file and open it in Wireshark.
+   1. Find the FTP password of user john.
+   2. From Samsclass website, download the following HTTP capture file and open it in Wireshark.
    [httplogin.pcapng](https://samsclass.info/123/proj14/httplogin.pcapng)
    In this capture, user Isaac made several attempts to log in before finally entering the correct password. Find all his attempted passwords and identify the correct one.
-   4. From Samsclass website, download the following HTTP Basic Authentication capture file and open it in Wireshark.
+   1. From Samsclass website, download the following HTTP Basic Authentication capture file and open it in Wireshark.
    [BasicLogin.pcapng](https://samsclass.info/123/proj14/BasicLogin.pcapng)
    Find the user WALDO's password.
 
@@ -166,6 +168,11 @@ iisreset.exe /stop
    3. From Ubuntu, start Wireshark capture, then access and play with http://windowsServerIP/demo_post.php.
    4. Save and investigate the Wireshark capture in Ubuntu. Can you extract the money transactions?
 
+**Demo video**
+
+* [Lab04: Network Reconnaissance](https://youtu.be/CdNF7-CpP3E)
+
+
 ## Reference
 * *Concepts*
   * [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
@@ -186,6 +193,7 @@ iisreset.exe /stop
 * [Nmap](https://en.wikipedia.org/wiki/Nmap)
   * [nmap syntax](https://svn.nmap.org/nmap/docs/nmap.usage.txt)
   * [nmap manual](https://nmap.org/book/man.html)
+    * [nmap ftp bounce attack](https://www.linux.org/threads/nmap-ftp-bounce-attack.4493/)
   * [zenmap](https://nmap.org/zenmap/)
 * [Hping](https://en.wikipedia.org/wiki/Hping)
   * [hping](http://www.hping.org/)
