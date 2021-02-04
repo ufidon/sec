@@ -13,8 +13,26 @@ In this lab, practice the following techniques:
 
 Prerequisites: 
 
-* The network reconnaissance and scanning tools will be installed and configured during the lecture instead of the lab.
+* The network reconnaissance and scanning tools will be installed and configured during the lecture instead of the lab. You may refer to this [video demo](https://youtu.be/onxwI1Vtc7g).
 * The Windows server VM and Ubuntu VM are both used.
+
+Install Wireshark and nmap on Ubuntu:
+```bash
+# 1. Install Wireshark
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install wireshark
+
+# 2. Configure wireshark for non-root users
+sudo usermod -aG wireshark $USER
+sudo setcap cap_net_raw,cap_net_admin+eip $(which dumpcap)
+sudo chown root $(which dumpcap)
+sudo chmod u+s $(which dumpcap)
+
+# 3. Reboot Ubuntu
+
+# 4. Install nmap
+sudo apt install nmap
+```
 
 This lab is a combination of [Project 5: nmap](https://samsclass.info/123/proj10/123p5nmap.htm) and [Project 6: Wireshark](https://samsclass.info/123/proj14/123p6wire.htm) from [Samsclass: Ethical Hacking and Network Defense](https://samsclass.info/123/123_F18.shtml).
 
