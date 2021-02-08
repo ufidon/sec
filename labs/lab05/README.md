@@ -143,22 +143,21 @@ REM 3. Access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf
    * Download the [latest version BurpSuite](https://portswigger.net/burp/communitydownload) then install it.
 
 ## 2. Tasks
-1. Start WebGoat and WebWolf.  
+1. (10%) Start WebGoat and WebWolf.  
    1. Open Powershell or command prompt, run WebGoat with the command line below:
    ```batch
    java -Dfile.encoding=UTF-8 -jar ./webgoat-server-8.1.0.jar --server.port=8080 --server.address=localhost
    java -Dfile.encoding=UTF-8 -jar ./webwolf-8.1.0.jar --server.port=9090 --server.address=localhost
    ```
    2. Access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf using a web browser.
-2. Practice web attack lessons in WebGoat.
-   1. SQL injection
-   2. Sensitive-data exposure
-   3. Cross-site scripting
-   4. Cross-site request forgery
-   5. Server-side request forgery
+2. (90%) Practice web attack lessons in WebGoat.
+   1. (30%) SQL injection (advanced(10%) and mitigation(20%))
+   2. (10%) Sensitive-data exposure
+   3. (20%) Cross-site scripting
+   4. (20%) Cross-site request forgery
+   5. (10%) Server-side request forgery
 
 
-## 3. Review questions
 
 ## Reference
 * [Install docker on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
