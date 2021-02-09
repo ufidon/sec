@@ -14,12 +14,12 @@ In this lab, practice the following web attack techniques:
 
 Prerequisites: 
 
-* The web attack practice environment will be installed and configured during the lecture instead of the lab. You may refer to this [video demo]().
-* You may use only Windows server VM OR Ubuntu VM.
+* The web attack practice environment will be installed and configured during the lecture instead of the lab. You may refer to this [video demo](https://youtu.be/7SLVvqPAFHc) to install the web attack environment.
+* You may use only Windows server VM OR Windows host OR Ubuntu VM.
 
-You may install WebGoat and BurpSuite on Windows server OR Ubuntu.
+You may install WebGoat/Webwolf and ZAP/BurpSuite on Windows server OR Windows host OR Ubuntu.
 
-### Install WebGoat and BurpSuite
+### Install WebGoat/Webwolf and ZAP/BurpSuite
 #### On Ubuntu
 1. Install Java JDK
 ```bash
@@ -41,7 +41,7 @@ Download the latest [stable version of webgoat-server and webwolf](https://githu
 # 2. Run WebGoat and webolf
 cd "the folder where webgoat-server and webwolf resides"
 java -Dfile.encoding=UTF-8 -jar ./webgoat-server-8.1.0.jar --server.port=8080 --server.address=localhost
-java -Dfile.encoding=UTF-8 -jar ./webwolf-8.1.0.jar --server.port=8080 --server.address=localhost
+java -Dfile.encoding=UTF-8 -jar ./webwolf-8.1.0.jar --server.port=9090 --server.address=localhost
 
 # 3. Access http://127.0.0.1:8080/WebGoat and http://127.0.0.1:9090/WebWolf
 ```
@@ -70,7 +70,7 @@ docker run hello-world
 # 6. Pull webgoat docker image and run
 docker pull webgoat/webgoat-8.0
 docker run -p 8080:8080 -t webgoat/webgoat-8.0
-docker run -p 8080:8080 -p 9090:9090 -e TZ=America/Chicago webgoat/goatandwolf
+docker run  -p 9090:9090 -e TZ=America/Chicago webgoat/goatandwolf
 ```
 
 4. Install ZAP OR BurpSuite
@@ -78,17 +78,18 @@ docker run -p 8080:8080 -p 9090:9090 -e TZ=America/Chicago webgoat/goatandwolf
 
    ```bash
    # 1. check opt folder owner and change the owner to you
+   [ -e /opt ] || sudo mkdir /opt
    ls -ld /opt/
    sudo chown -R $USER:$USER /opt/
 
    # 2. Go to the folder where ZAP resides
    cd "the folder where ZAP resides"
 
-   # 3. Install burpsuite, change the version to yours
+   # 3. extract ZAP, change the version to yours
    tar -zxf ZAP_2.10.0_Linux.tar.gz 
    mv ZAP_2.10.0 /opt 
 
-   # 4. find and run burpsuite
+   # 4. find and run ZAP
    ls /opt/ZAP_2.10.0/
    /opt/ZAP_2.10.0/zap.sh
    ```
@@ -97,6 +98,7 @@ docker run -p 8080:8080 -p 9090:9090 -e TZ=America/Chicago webgoat/goatandwolf
 
    ```bash
    # 1. check opt folder owner and change the owner to you
+   [ -e /opt ] || sudo mkdir /opt
    ls -ld /opt/
    sudo chown -R $USER:$USER /opt/
 
@@ -130,7 +132,7 @@ Download the latest [stable version of webgoat-server and webwolf](https://githu
 ```batch
 REM 1. Download the latest stable version of webgoat-server and webwolf
 
-REM 2. Run WebGoat and webwolf
+REM 2. Run WebGoat and webwolf, change the versions to yours
 cd "the folder where webgoat-server and webwolf resides"
 java -Dfile.encoding=UTF-8 -jar ./webgoat-server-8.1.0.jar --server.port=8080 --server.address=localhost
 java -Dfile.encoding=UTF-8 -jar ./webwolf-8.1.0.jar --server.port=9090 --server.address=localhost
@@ -142,10 +144,11 @@ REM 3. Access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf
    * Download the [latest version ZAP](https://www.zaproxy.org/) then install it.
    * Download the [latest version BurpSuite](https://portswigger.net/burp/communitydownload) then install it.
 
-## 2. Tasks
+## 2. Tasks (100%)
 1. (10%) Start WebGoat and WebWolf.  
    1. Open Powershell or command prompt, run WebGoat with the command line below:
    ```batch
+   REM Change the versions to yours
    java -Dfile.encoding=UTF-8 -jar ./webgoat-server-8.1.0.jar --server.port=8080 --server.address=localhost
    java -Dfile.encoding=UTF-8 -jar ./webwolf-8.1.0.jar --server.port=9090 --server.address=localhost
    ```
