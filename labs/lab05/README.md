@@ -146,21 +146,27 @@ REM 3. Access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf
 
 ## 2. Tasks (100%)
 1. (10%) Start WebGoat and WebWolf.  
-   1. Open Powershell or command prompt, run WebGoat with the command line below:
+   1. (4%)Open Powershell or command prompt, run WebGoat with the command line below:
    ```batch
    REM Change the versions to yours
    java -Dfile.encoding=UTF-8 -jar ./webgoat-server-8.1.0.jar --server.port=8080 --server.address=localhost
    java -Dfile.encoding=UTF-8 -jar ./webwolf-8.1.0.jar --server.port=9090 --server.address=localhost
    ```
-   2. Access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf using a web browser.
+   2. (2%)Start ZAP, open Firefox inside ZAP
+   3. (2%)Inside the Firefox proxied with ZAP, access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf.
+   4. (2%)In ZAP bottom panel, change History filter settings(From lesson General->HTTP proxies->Page 5):
+      1. In URL Inc Regex add: .*WebGoat.*
+      2. In URL Exc Regex add: .*lesson.*.mvc
 2. (90%) Practice web attack lessons in WebGoat.
-   1. (30%) SQL injection (advanced(10%) and mitigation(20%))
-   2. (10%) Sensitive-data exposure
-   3. (20%) Cross-site scripting
-   4. (20%) Cross-site request forgery
-   5. (10%) Server-side request forgery
+   1. (60%) (A1)Injection -> SQL injection (Intro)
+   2. (Optional) Sensitive-data exposure
+   3. (30%) (A7) Cross-site scripting (XSS) -> Cross-site Scripting (Page 1-7)
+   4. (Optional) Cross-site request forgery
+   5. (Optional) Server-side request forgery
 
+**Demo video**
 
+* [Lab05: Web attack](https://youtu.be/Q0ah7sVcCgQ)
 
 ## Reference
 * [Install docker on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
