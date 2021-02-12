@@ -159,8 +159,28 @@ REM 3. Access http://127.0.0.1:8080/WebGoat and  http://127.0.0.1:9090/WebWolf
       2. In URL Exc Regex add: .*lesson.*.mvc
 2. (90%) Practice web attack lessons in WebGoat.
    1. (60%) (A1)Injection -> SQL injection (Intro)
+      1. (2%) Page1 : Concept
+      2. (5%) Page2 : What is SQL? (Q)
+      3. (6%) Page3 : Data Manipulation Language (DML) (Q)
+      4. (6%) Page4 : Data Definition Language (DDL) (Q)
+      5. (5%) Page5 : Data Control Language (DCL) (Q)
+      6. (2%) Page6 : What is SQL injection?
+      7. (2%) Page7 : Consequences of SQL injection
+      8. (2%) Page8 : Severity of SQL injection
+      9. (6%) Page9 : Try It! String SQL injection (Q)
+      10. (6%) Page10: Try It! Numeric SQL injection (Q)
+      11. (6%) Page11: Compromising confidentiality with String SQL injection (Q)
+      12. (6%) Page12: Compromising Integrity with Query chaining (Q)
+      13. (6%) Page13: Compromising Availability (Q)
    2. (Optional) Sensitive-data exposure
    3. (30%) (A7) Cross-site scripting (XSS) -> Cross-site Scripting (Page 1-7)
+      1. (2%) Page1 : Concept
+      2. (10%) Page2 : What is XSS? (Q)
+      3. (2%) Page3 : Most common locations
+      4. (2%) Page4 : Why should we care?
+      5. (2%) Page5 : Types of XSS
+      6. (2%) Page6 : Reflected XSS scenario
+      7. (10%) Page7 : Try It! Reflected XSS (Q)
    4. (Optional) Cross-site request forgery
    5. (Optional) Server-side request forgery
 
