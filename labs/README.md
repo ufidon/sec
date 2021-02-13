@@ -7,7 +7,7 @@ Online resources and examples
 * Lab03: CVE investigation
 * Lab04: Network reconnaissance
 * Lab05: Attacking web apps
-* Lab06: Attacking distributed apps
+* Lab06: Vulnerability assessment
 * Lab07: Penetration test
 * Lab08: Exploring vulnerabilities
 * Lab09: Exploiting vulnerabilities

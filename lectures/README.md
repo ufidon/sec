@@ -7,8 +7,8 @@ Online resources and examples
 * Module03: Computer security
 * Module04: Network security
 * Module05: Web security
-* Module06: Distributed applications security
-* Module07: Penetration test
-* Module08: Vulnerability and exploitation
-* Module09: Malware
-* Module10: Smartphone security
+* Module06: Penetration test
+* Module07: Vulnerability exploitation
+* Module08: Malware
+* Module09: Smartphone security
+* Module10: Distributed applications security
