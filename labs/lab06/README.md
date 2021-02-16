@@ -11,9 +11,14 @@ Install Greenbone GVM on Ubuntu then launch it from Ubuntu, carry out a vulnerab
 * Both Windows server VM and the Ubuntu VM are used
 * Install Greenbone GVM on Ubuntu
 
+You may follow this [installation video](https://youtu.be/oq3rhIjrnGM).
+
 ```bash
+# 0. Update the system
+sudo apt update -y && sudo apt upgrade -y
+
 # 1. Install postgresql dbs
-sudo apt install postgresql
+sudo apt install postgresql --fix-missing
 
 # 2. Start postgresql and check its status
 # sudo pg_ctlcluster 12 main start or
@@ -24,7 +29,7 @@ sudo systemctl status postgresql@12-main
 sudo apt-add-repository ppa:mrazavi/gvm
 sudo apt install gvm
 
-# 4. Update greenbone
+# 4. Update greenbone (TAKE LOTS OF TIME)
 sudo greenbone-nvt-sync 
 sudo greenbone-scapdata-sync 
 sudo greenbone-certdata-sync 

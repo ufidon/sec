@@ -19,3 +19,6 @@ Online resources and examples
 * [Penetration test](https://en.wikipedia.org/wiki/Penetration_test)
   * [Vulnerability scanner](https://en.wikipedia.org/wiki/Vulnerability_scanner)
     * [Metasploit Project](https://en.wikipedia.org/wiki/Metasploit_Project)
+      * [metasploit unleashed](https://www.offensive-security.com/metasploit-unleashed/)
+      * [install](https://github.com/rapid7/metasploit-framework)
+      * [doc](https://docs.rapid7.com/metasploit/)
