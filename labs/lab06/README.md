@@ -40,10 +40,11 @@ sudo greenbone-certdata-sync
 ### 2. Tasks (80%)
 Carry out vulnerability assessment on the Windows VM from the Ubuntu VM.
 
-1. (5%) Access https://localhost:9392/ in a browser, login with the default credential.
-2. (20%) Create a scan task and start it
-3. (45%) Investigate the scan results
-4. (10%) Export the scan results
+1. (5%) Find the IP addresses of your Windows server VM and Ubuntu VM, make sure they can ping each other
+2. (5%) Access https://localhost:9392/ in a browser, login with the default credential.
+3. (20%) Create a scan task and start it
+4. (40%) Investigate the scan results
+5. (10%) Export the scan results
 
 ### 3. Review questions (20%)
 1. Use the CVSS calculator built-in Greenbone GVM to assess the severity of one of the vulnerabilities found above.
