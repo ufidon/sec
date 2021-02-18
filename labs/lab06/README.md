@@ -42,12 +42,18 @@ Carry out vulnerability assessment on the Windows VM from the Ubuntu VM.
 
 1. (5%) Find the IP addresses of your Windows server VM and Ubuntu VM, make sure they can ping each other
 2. (5%) Access https://localhost:9392/ in a browser, login with the default credential.
-3. (20%) Create a scan task and start it
-4. (40%) Investigate the scan results
-5. (10%) Export the scan results
+3. (10%) Create a scan config for scanning Windows only
+4. (10%) Create a scan task with the config above and start it
+5. (40%,8% each) Investigate the scan results
+   1. Dashboard
+   2. Scans -> Tasks
+   3. Scans -> Reports
+   4. Scans -> Results
+   5. Scans -> Vulnerabilities
+6. (10%) Export the scan results, try all the format to see which of them are successfully exported, for each of the successful outputs, take a screenshot of a portion of its content.
 
-### 3. Review questions (20%)
-1. Use the CVSS calculator built-in Greenbone GVM to assess the severity of one of the vulnerabilities found above.
+### 3. Review questions (20%, each 10%)
+1. Use the CVSS calculator built-in Greenbone GVM to assess the severity of two of the vulnerabilities with different scores found above.
 
 ## References:
 * [openvas](https://www.openvas.org/)
