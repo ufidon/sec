@@ -53,7 +53,11 @@ Carry out vulnerability assessment on the Windows VM from the Ubuntu VM.
 6. (10%) Export the scan results, try all the format to see which of them are successfully exported, for each of the successful outputs, take a screenshot of a portion of its content.
 
 ### 3. Review questions (20%, each 10%)
-1. Use the CVSS calculator built-in Greenbone GVM to assess the severity of two of the vulnerabilities with different scores found above.
+1. Use the CVSS calculator built-in Greenbone GVM to assess the severity of TWO of the vulnerabilities with different scores found above.
+
+**Demo video**
+
+* [Lab06 Assessing IT System Security With Greenbone GVM](https://youtu.be/erP3_jmbbhY)
 
 ## References:
 * [openvas](https://www.openvas.org/)
