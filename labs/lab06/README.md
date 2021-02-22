@@ -75,6 +75,7 @@ Carry out vulnerability assessment on the Windows VM from the Ubuntu VM.
 ## References:
 * [openvas](https://www.openvas.org/)
   * [greenbone](https://github.com/greenbone)
+  * [Install doc](https://github.com/greenbone/gvmd/blob/master/INSTALL.md)
 * [Greenbone Vulnerability Management](https://launchpad.net/~mrazavi/+archive/ubuntu/gvm)
   * [Install Greenbone Vulnerability Management in Gentoo Linux](https://wiki.gentoo.org/wiki/Greenbone_Vulnerability_Management)
   * [Install Greenbone Vulnerability Manager 20.08 on Ubuntu 20.04](https://www.mikeslab.net/install-greenbone-vulnerability-manager-20-08-on-ubuntu-20-04/)
