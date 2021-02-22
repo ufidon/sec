@@ -29,22 +29,24 @@ sudo systemctl status postgresql@12-main
 sudo apt-add-repository ppa:mrazavi/gvm
 sudo apt install gvm
 # during the installation
-#	1. Do you want to enable redis unix socket in /etc/redis/redis.conf? Choose YES
-#	2. Configure database for gvmd-pg with dbconfig-common? Choose YES
-#	3. Host name of the PostgreSQL database server for gvmd-pg: Choose localhost
-#	4. PostgreSQL application password for gvmd-pg: LEAVE IT BLANK and let it to be generated randomly.
+# 1. Do you want to enable redis unix socket in /etc/redis/redis.conf? Choose YES
+# 2. Configure database for gvmd-pg with dbconfig-common? Choose YES
+# 3. Host name of the PostgreSQL database server for gvmd-pg: Choose localhost
+# 4. PostgreSQL application password for gvmd-pg: LEAVE IT BLANK and let it to be generated randomly.
 
 # 4. Update greenbone (TAKE LOTS OF TIME)
-sudo greenbone-nvt-sync 
+# populate nvt
+sudo greenbone-nvt-sync
+# populate cves 
 sudo greenbone-scapdata-sync 
+# sudo -u gvm -g gvm greenbone-feed-sync --type SCAP
+# polulate cert
 sudo greenbone-certdata-sync 
-
+# sudo -u gvm -g gvm greenbone-feed-sync --type CERT
 # 5. Access https://localhost:9392/ in a browser
 
 # 6. In case you have the problem that the scan configs are missing
 sudo -u gvm -g gvm greenbone-feed-sync --type GVMD_DATA
-sudo -u gvm -g gvm greenbone-feed-sync --type SCAP
-sudo -u gvm -g gvm greenbone-feed-sync --type CERT
 ```
 
 
