@@ -28,6 +28,11 @@ sudo systemctl status postgresql@12-main
 # 3. add Greenbone gvm ppa and install
 sudo apt-add-repository ppa:mrazavi/gvm
 sudo apt install gvm
+# during the installation
+#	1. Do you want to enable redis unix socket in /etc/redis/redis.conf? Choose YES
+#	2. Configure database for gvmd-pg with dbconfig-common? Choose YES
+#	3. Host name of the PostgreSQL database server for gvmd-pg: Choose localhost
+#	4. PostgreSQL application password for gvmd-pg: LEAVE IT BLANK and let it to be generated randomly.
 
 # 4. Update greenbone (TAKE LOTS OF TIME)
 sudo greenbone-nvt-sync 
@@ -35,7 +40,13 @@ sudo greenbone-scapdata-sync
 sudo greenbone-certdata-sync 
 
 # 5. Access https://localhost:9392/ in a browser
+
+# 6. In case you have the problem that the scan configs are missing
+sudo -u gvm -g gvm greenbone-feed-sync --type GVMD_DATA
+sudo -u gvm -g gvm greenbone-feed-sync --type SCAP
+sudo -u gvm -g gvm greenbone-feed-sync --type CERT
 ```
+
 
 ### 2. Tasks (80%)
 Carry out vulnerability assessment on the Windows VM from the Ubuntu VM.
@@ -68,3 +79,4 @@ Carry out vulnerability assessment on the Windows VM from the Ubuntu VM.
 * [GVM managing secinfo](https://docs.greenbone.net/GSM-Manual/gos-5/en/managing-secinfo.html)
   * [Common Vulnerabilities and Exposures (CVE)](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
   * [Common Platform Enumeration (CPE)](https://en.wikipedia.org/wiki/Common_Platform_Enumeration)
+  * [GVM 20.08 Missing Report Formats and Scan Configs](https://community.greenbone.net/t/gvm-20-08-missing-report-formats-and-scan-configs/6397)
