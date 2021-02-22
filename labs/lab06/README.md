@@ -39,10 +39,10 @@ sudo apt install gvm
 sudo greenbone-nvt-sync
 # populate cves 
 sudo greenbone-scapdata-sync 
-# sudo -u gvm -g gvm greenbone-feed-sync --type SCAP
+sudo -u gvm -g gvm greenbone-feed-sync --type SCAP
 # polulate cert
 sudo greenbone-certdata-sync 
-# sudo -u gvm -g gvm greenbone-feed-sync --type CERT
+sudo -u gvm -g gvm greenbone-feed-sync --type CERT
 # 5. Access https://localhost:9392/ in a browser
 
 # 6. In case you have the problem that the scan configs are missing
