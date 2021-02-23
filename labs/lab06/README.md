@@ -13,7 +13,13 @@ Install Greenbone GVM on Ubuntu then launch it from Ubuntu, carry out a vulnerab
 
 You may follow this [installation video](https://youtu.be/oq3rhIjrnGM).
 
-*In all these methods, if your scan configs are missing, just leave the VM running for several hours until you see the scan configs.*
+**Note**
+
+1. *Don't try more than one methods on the same VM, otherwise they will be messed up*
+2. *In all these methods, if your scan configs are missing, just leave the VM running for one or two hours until you see the scan configs.*
+3. *Run those update commands every one or two hours until you have all the required data*
+4. *The smoothest method is Method 1 demonstrated in the installation video above*
+5. *Using a freshly-made VM is suggested, especially after failed many times*
 
 ```bash
 # ===== Method 1: Install gvm from PPA ======
