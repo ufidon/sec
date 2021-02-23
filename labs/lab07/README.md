@@ -1,6 +1,8 @@
 # its250
 Online resources and examples
 
+## Lab07: Penetration test
+
 ### 1. Description
 Install Metasploit framework on Ubuntu then launch it from Ubuntu, carry out a cyber attack on the Windows server VM to get ultimate control.
 
@@ -9,7 +11,7 @@ Install Metasploit framework on Ubuntu then launch it from Ubuntu, carry out a c
 * Both Windows server VM and the Ubuntu VM are used
 * Install Metasploit framework on Ubuntu
 
-You may follow this [installation video]()
+You may follow this [installation video](https://youtu.be/qKudXchmnWc).
 
 1. Install with [Rapid7 installer](https://docs.rapid7.com/metasploit/installing-the-metasploit-framework) on Ubuntu.
    ```bash
@@ -144,3 +146,4 @@ You may follow this [installation video]()
   * [Post Exploitation for Remote Windows Password](https://www.hackingarticles.in/post-exploitation-remote-windows-password/)
   * [Dumping Domain Password Hashes](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
   * [Cracking Windows Password Hashes with Hashcat](https://samsclass.info/123/proj14/123p12winhash.htm)
+  * [Meterpreter basics practice](https://www.utc.edu/center-academic-excellence-cyber-defense/pdfs/4660-lab6.pdf)
