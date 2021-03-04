@@ -144,6 +144,7 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc) to instal
 
 **Demo video**
 
+* [Lab07: Penetration test](https://youtu.be/DiGyw79HhlM)
 
 ## Reference
 * [Running a simple HTTP web server with one terminal command and python](https://linuxconfig.org/running-a-simple-http-web-server-with-one-terminal-command-and-python)

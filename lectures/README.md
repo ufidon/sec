@@ -8,7 +8,7 @@ Online resources and examples
 * Module04: Network security
 * Module05: Web security
 * Module06: Penetration test
-* Module07: Exploit development
-* Module08: Malware analysis
+* Module07: Malware analysis
+* Module08: Exploit development
 * Module09: Smartphone security
 * Module10: Distributed applications security
