@@ -92,6 +92,10 @@ Online resources and examples
         * [TCP reset attack](https://en.wikipedia.org/wiki/TCP_reset_attack)
         * [TCP sequence prediction attack](https://en.wikipedia.org/wiki/TCP_sequence_prediction_attack)
 
+### WiFi USB adapter
+* [rtl88x2bu](https://github.com/cilynx/rtl88x2bu)
+  * [AC1200 High Gain USB Wi-Fi Adapter WU1200](http://www.cudytech.com/productinfo/517558.html)
+
 ### Network defense
 * [Firewall (computing)](https://en.wikipedia.org/wiki/Firewall_(computing))
 * *Network layer security*
