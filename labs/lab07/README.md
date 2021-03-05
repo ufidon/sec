@@ -173,6 +173,7 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc) to instal
   * [Post Exploitation for Remote Windows Password](https://www.hackingarticles.in/post-exploitation-remote-windows-password/)
   * [Dumping Domain Password Hashes](https://pentestlab.blog/2018/07/04/dumping-domain-password-hashes/)
   * [Cracking Windows Password Hashes with Hashcat](https://samsclass.info/123/proj14/123p12winhash.htm)
+    * [LM, NTLM, Net-NTLMv2, oh my!](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4)
   * [Meterpreter basics practice](https://www.utc.edu/center-academic-excellence-cyber-defense/pdfs/4660-lab6.pdf)
   * [Armitage](http://www.fastandeasyhacking.com)
     * [source](https://github.com/rsmudge/armitage)
