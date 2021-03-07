@@ -30,6 +30,11 @@ You may follow this [installation video](https://youtu.be/qKudXchmnWc) to instal
    # 2. Disable firewalls (Done in Lab03)
    # 3. Download metaspoit framework windows installer, then in nstall with Administrator account.
    ```
+3. **Note** : by default, Ubuntu firewall is disabled, somehow, it may be enabled accidently, TURN IT OFF.
+   ```batch
+   sudo ufw stutaus
+   sudo ufw disable
+   ```
 
 ### 2. Tasks (100%)
 
