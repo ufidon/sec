@@ -4,7 +4,12 @@ Online resources and examples
 ## Lab08: Malware analysis I: basic static analysis
 
 ### 1. Description
-
+Learn basic static analysis techniques on malware with various tools:
+* Check malware with online tools
+* Analyze malware file format
+* Analyze malware dependencies
+* Analyze malware capabilities
+* Unpack malware
 
 **Prerequisite**
 
@@ -13,7 +18,7 @@ Online resources and examples
 3. Download [tools](./tools/tools.7z), archive password is "its250".
 
 ### 2. Tasks (100%)
-1. (10%) Analyze malware with online tools, such as [virustotal](https://www.virustotal.com/)
+1. (10%) Check malware with online tools, such as [virustotal](https://www.virustotal.com/)
    1. (4%) Upload file 'Practical Malware Analysis Labs\BinaryCollection\Chapter_1L\Lab01-01.dll' to [virustotal](https://www.virustotal.com/) and check the analysis result
    2. (6%, each hash 2%) Find the MD5, SHA1, SHA256 of Lab01-01.dll, then search these hashes on [virustotal](https://www.virustotal.com/), did you get the identical result as previous step?
 2. (10%) Analyze PE files with PE tools such as [filealyzer](https://www.safer-networking.org/products/filealyzer/).
