@@ -1,0 +1,4 @@
+1.2 Yes
+2.1 Characteristics: 010F,"Relocs Stripped, Executable, Line Numbers Stripped, Local Symbols Stripped, 32bit Machine Expected"
+2.2 Microsoft Visual C++ 6.0
+3.2.1 127.26.152.13

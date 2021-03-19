@@ -9,9 +9,10 @@ Online resources and examples
 * Lab05: Attacking web apps
 * Lab06: Vulnerability assessment
 * Lab07: Penetration test
-* Lab08: Exploring vulnerabilities
-* Lab09: Exploiting vulnerabilities
-* Lab10: Making exploitation
-* Lab11: Malware attack
-* Lab12: Malware prevention
+* Lab08: Malware analysis I: basic static analysis
+* Lab09: Malware analysis II: basic dynamic analysis
+* Lab10: Malware analysis III: advanced static analysis
+* Lab11: Malware analysis IV: advanced dynamic analysis
+* Lab12: Malware functionality 
+* Lab13: Anti-reverse-engineering
 
