@@ -34,7 +34,7 @@ Online resources and examples
             * [nirsoft](http://www.nirsoft.net/)
     * [Dynamic loading](https://en.wikipedia.org/wiki/Dynamic_loading)
       * [Loader](https://en.wikipedia.org/wiki/Loader_(computing))
-  * _dynamic analysis
+  * _dynamic analysis_
     * _Static analysis practice_
       * [online check with virustotal](https://www.virustotal.com/gui)
         * find malware hashes with [HashCalc](https://github.com/jNizM/HashCalc) or [quickhash](https://www.quickhash-gui.org/)

@@ -1,7 +1,7 @@
 # its250
 Online resources and examples
 
-## Lab08: Malware analysis I: static analysis
+## Lab08: Malware analysis I: basic static analysis
 
 ### 1. Description
 
