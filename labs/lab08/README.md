@@ -15,7 +15,7 @@ Learn basic static analysis techniques on malware with various tools:
 
 1. Work in the Windows VM with protection disabled in Lab03.
 2. Download [PracticalMalwareAnalysis-Labs.7z](https://github.com/mikesiko/PracticalMalwareAnalysis-Labs), archive password is "malware".
-3. Download [tools](./tools/tools.7z), archive password is "its250".
+3. Download [tools](./tools/tools.7z), archive password is "cit250".
 
 ### 2. Tasks (100%)
 1. (10%) Check malware with online tools, such as [virustotal](https://www.virustotal.com/)
