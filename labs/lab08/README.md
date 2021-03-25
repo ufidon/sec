@@ -70,7 +70,7 @@ Learn basic static analysis techniques on malware with various tools:
 
 **Demo video**
 
-* 
+* [Lab08: Malware analysis I: basic static analysis](https://youtu.be/w-fVerYbIxk)
 
 ## Reference
 * [Samscalss: Basic Static Techniques](https://bowneconsultingcontent.com/pub/PMA/pma101a/pma101.html)
