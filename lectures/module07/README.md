@@ -6,6 +6,7 @@ Online resources and examples
   * [Keystroke logging](https://en.wikipedia.org/wiki/Keystroke_logging)
 * [Malware analysis overview](https://en.wikipedia.org/wiki/Malware_analysis)
   * _static analysis_
+  * [Static program analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
   * [Introduction to Malware Analysis](https://tstillz.medium.com/introduction-to-malware-analysis-b98d895fb50)
     * [Basic Static Analysis (Part 1)](https://tstillz.medium.com/basic-static-analysis-part-1-9c24497790b6)
     * [Antivirus software](https://en.wikipedia.org/wiki/Antivirus_software)
@@ -35,6 +36,19 @@ Online resources and examples
     * [Dynamic loading](https://en.wikipedia.org/wiki/Dynamic_loading)
       * [Loader](https://en.wikipedia.org/wiki/Loader_(computing))
   * _dynamic analysis_
+    * [Dynamic program analysis](https://en.wikipedia.org/wiki/Dynamic_program_analysis)
+    * [System monitor](https://en.wikipedia.org/wiki/System_monitor)
+      * [Program process monitoring](https://en.wikipedia.org/wiki/Program_process_monitoring)
+      * [Event monitoring](https://en.wikipedia.org/wiki/Event_monitoring)
+      * [Network monitoring](https://en.wikipedia.org/wiki/Network_monitoring)
+      * [User activity monitoring](https://en.wikipedia.org/wiki/User_activity_monitoring)
+    * [Software testing](https://en.wikipedia.org/wiki/Software_testing)
+      * [Runtime verification](https://en.wikipedia.org/wiki/Runtime_verification)
+      * [Runtime error detection](https://en.wikipedia.org/wiki/Runtime_error_detection)
+      * [Formal verification](https://en.wikipedia.org/wiki/Formal_verification)
+      * [Data validation](https://en.wikipedia.org/wiki/Data_validation)
+    * [Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
+  * _malware analysis steps_
     * _Static analysis practice_
       * [online check with virustotal](https://www.virustotal.com/gui)
         * find malware hashes with [HashCalc](https://github.com/jNizM/HashCalc) or [quickhash](https://www.quickhash-gui.org/)
@@ -54,6 +68,22 @@ Online resources and examples
         * [DLL Export Viewer](https://www.nirsoft.net/utils/dll_export_viewer.html)
           * [RegDllView](https://www.nirsoft.net/utils/registered_dll_view.html)
     * _dynamic analysis_
+      * _setup sandbox_
+        * [Sandbox](https://en.wikipedia.org/wiki/Sandbox_(computer_security))
+          * [cuckoo sandbox](https://cuckoosandbox.org/)
+          * [sandboxie](https://www.sandboxie.com/)
+      * _run and monitor malware_
+        * [How do I execute a *.dll file](https://stackoverflow.com/questions/3044395/how-do-i-execute-a-dll-file)
+          * [rundll32.exe equivalent for 64-bit DLLs](https://stackoverflow.com/questions/4703635/rundll32-exe-equivalent-for-64-bit-dlls)
+          * [File System Redirector](https://docs.microsoft.com/en-us/windows/win32/winprog64/file-system-redirector)
+          * [RunDLL32.exe](https://ss64.com/nt/rundll32.html)
+        * [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
+          * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+        * [Regshot](https://sourceforge.net/projects/regshot/)
+      * _emulate network and monitor network activities_
+        * [inetsim](https://www.inetsim.org/)
+        * [Netcat](https://en.wikipedia.org/wiki/Netcat)
+        * [Wireshark](https://en.wikipedia.org/wiki/Wireshark)
 * [Advance analysis: Program analysis](https://en.wikipedia.org/wiki/Program_analysis)
   * [Static program analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
     * [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
@@ -63,9 +93,14 @@ Online resources and examples
     * [Debugging](https://en.wikipedia.org/wiki/Debugging)
       * [Debugger](https://en.wikipedia.org/wiki/Debugger)
         * [List of debuggers](https://en.wikipedia.org/wiki/List_of_debuggers)
-      * [Kernel debugger](https://en.wikipedia.org/wiki/Kernel_debugger)
+        * [Kernel debugger](https://en.wikipedia.org/wiki/Kernel_debugger)
+        * [GNU Debugger](https://en.wikipedia.org/wiki/GNU_Debugger)
+        * [WinDbg](https://en.wikipedia.org/wiki/WinDbg)
 
 * Tools
+  * [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
+    * [The Top 132 Malware Analysis Open Source Projects](https://awesomeopensource.com/projects/malware-analysis)
+  * _static analysis tools_
   * [Windows Executable Files](https://en.wikibooks.org/wiki/X86_Disassembly/Windows_Executable_Files)
     * [PE](https://wiki.osdev.org/PE)
     * [Exploring PE Files with Python](https://bufferoverflows.net/exploring-pe-files-with-python/)
@@ -81,6 +116,7 @@ Online resources and examples
     * [capa](https://github.com/fireeye/capa)
   * [upx](https://github.com/upx)
   * [virustotal](https://www.virustotal.com/gui/)
+  * _dynamic analysis tools_
   * [jasmin](http://jasmin.sourceforge.net/)
   * [ida](https://www.hex-rays.com/products/ida/support/download_freeware/)
   * [apimonitor](http://www.rohitab.com/apimonitor)
