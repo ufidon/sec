@@ -1,7 +1,7 @@
 # its250
 Online resources and examples
 
-## Lab09: Malware analysis I: basic dynamic analysis
+## Lab09: Malware analysis II: basic dynamic analysis
 
 ### 1. Description
 Practice basic dynamic analysis techniques on malware with various tools:

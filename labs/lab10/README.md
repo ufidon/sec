@@ -16,6 +16,7 @@ This lab is revised from [Samscalss: Analyzing malwares with IDA Pro](https://sa
 
 1. Work in the Windows VM with protection disabled in Lab03.
 2. Download [malware.7z](./tools/malware.7z), archive password is "malware".
+3. Download [ida free](https://www.hex-rays.com/products/ida/support/download_freeware/) and install it with default options.
 
 
 ### 2. Tasks (100%)
@@ -41,3 +42,6 @@ This lab is revised from [Samscalss: Analyzing malwares with IDA Pro](https://sa
   * [The Ghidra Book](https://ghidrabook.com/)
   * [Samclass: Starting with Ghidra](https://samsclass.info/126/proj/PMA510.htm)
   * [Samclass: Ghidra data displays](https://samsclass.info/126/proj/PMA511.htm)
+* [Crackme](https://en.wikipedia.org/wiki/Crackme)
+  * [crackmes](https://crackmes.one/)
+  * [codeforces](http://codeforces.com/)
