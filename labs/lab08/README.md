@@ -4,7 +4,7 @@ Online resources and examples
 ## Lab08: Malware analysis I: basic static analysis
 
 ### 1. Description
-Learn basic static analysis techniques on malware with various tools:
+Practice basic static analysis techniques on malware with various tools:
 * Check malware with online tools
 * Analyze malware file format
 * Analyze malware dependencies
@@ -77,6 +77,8 @@ Learn basic static analysis techniques on malware with various tools:
 * [Samscalss: Unpacking](https://bowneconsultingcontent.com/pub/PMA/pma102/PMA102c.html)
 * [Samsclass: Capa](https://samsclass.info/126/proj/PMA110.htm)
 * [Samsclass: Custom UPX](https://samsclass.info/126/proj/PMA131a.htm)
+  * [Build UPX on Ubuntu](https://rc.library.uta.edu/uta-ir/bitstream/handle/10106/28133/PATEL-THESIS-2019.pdf?sequence=1&isAllowed=y)
+  * [Build UPX with Visual Studio](https://github.com/james34602/UPX-Visual-Studio)
 * [Dependency Walker with kernel32.dll on Windows 10](https://stackoverflow.com/questions/33604738/dependency-walker-with-kernel32-dll-on-windows-10)
 * [Analyzing dependencies with Dependency Walker](https://kb.froglogic.com/misc/using-dependency-walker/)
 * [Link an executable to a DLL](https://docs.microsoft.com/en-us/cpp/build/linking-an-executable-to-a-dll)

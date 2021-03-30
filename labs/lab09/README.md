@@ -4,7 +4,7 @@ Online resources and examples
 ## Lab09: Malware analysis I: basic dynamic analysis
 
 ### 1. Description
-Learn basic dynamic analysis techniques on malware with various tools:
+Practice basic dynamic analysis techniques on malware with various tools:
 * Run and monitor malware behaviors
 * Find malware's creation/deletion/modification of files/registries
 * Monitor malware's network activities
@@ -54,3 +54,4 @@ This lab is revised from [Samscalss: Basic dynamic analysis](https://bowneconsul
 * [Samscalss: Basic dynamic analysis](https://bowneconsultingcontent.com/pub/PMA/pma221/pma221.htm)
 * [Samscalss: Making a Windows Keylogger](https://bowneconsultingcontent.com/pub/PMA/pma221/PMA222.htm)
 * [Samsclass: Capa](https://samsclass.info/126/proj/PMA110.htm)
+* [How to exclude every process in Sysinternal's Process Monitor in the filter except for one process?](https://superuser.com/questions/372204/how-to-exclude-every-process-in-sysinternals-process-monitor-in-the-filter-exce)
