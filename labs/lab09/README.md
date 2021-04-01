@@ -21,7 +21,14 @@ This lab is revised from [Samscalss: Basic dynamic analysis](https://bowneconsul
 ### 2. Tasks (100%)
 1. (18%) Start malware analysis with static analysis tools
    1. (9%, 3% for each) Use [capa](https://github.com/fireeye/capa) to find the capabilities of the three malwares: key.exe, key12.exe and key13.exe
-   2. (9%, 3% for each) Use Use [BinText](https://www.aldeid.com/wiki/BinText) to analyze the three malwares: key.exe, key12.exe and key13.exe to confirm the conclusion gotten in previous step
+   2. (9%, 3% for each) Use Use [BinText](https://www.aldeid.com/wiki/BinText) to analyze the three malwares: key.exe, key12.exe and key13.exe to confirm the conclusion gotten in previous step. Meanwhile, find the following interesting strings.
+
+   | Malware sample | Interesting strings |
+   | -------------- | ------------------- |
+   | key.exe | log.txt, key.exe, C:\windows\vmx32to64.exe, Software\Microsoft\Windows\CurrentVersion\Run; #UP_ARROW_KEY, #DOWN, #DOWN_ARROW_KEY |
+   | key12.exe | log.txt, key12.exe, C:\windows\niceness.exe, Software\Microsoft\Windows\CurrentVersion\Run; http://ad.samsclass.info?flag=exfiltration, flag1.samsclass.info; #UP_ARROW_KEY, #DOWN, #DOWN_ARROW_KEY |
+   | key13.exe | log.txt, key13.exe, C:\windows\niceness.exe, Software\Microsoft\Windows\CurrentVersion\Run; http://ad.samsclass.info?flag=exfiltration; #UP_ARROW_KEY, #DOWN, #DOWN_ARROW_KEY |
+
 2. (4%, 1% for each) Prepare tools for basic dynamic analysis, show a screenshot for each running tool
    1. Download [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer), [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) and [Autoruns for Windows](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
    2. Download and install [Wireshark](https://www.wireshark.org/)
@@ -39,8 +46,8 @@ This lab is revised from [Samscalss: Basic dynamic analysis](https://bowneconsul
    5. (2%) In Process Explorer, right click key.exe and choose Kill Process. This stops the keylogger for the current session. However, the malware has written autorun entry into the registry, so it will start back up at the next reboot.
    6. (2%) Restart the machine, Open Process Explorer, find and click the new keylogger file, vmx32to64.exe. From the Process Explorer menu bar, click View, "Show Lower Pane" View, "Lower Pane View", Handles for more info.
    7. (2%) Remove persistence. Run Autoruns for Windows, find the registry key created by key.exe and delete it.
-4. (26%, distributed as previous one) Analyze key12.exe. Practice all dynamic analysis as previous one on this sample and find its network activities (DNS traffic) with Wireshark.
-5. (26%, distributed as previous one) Analyze key13.exe. Practice all dynamic analysis as previous one on this sample and find its network activities (HTTP traffic) with Wireshark.
+4. (26%, distributed as previous one) Analyze key12.exe. Practice all dynamic analysis as previous one on this sample and find its network activities (DNS traffic: DNS response for flag1.samsclass.info, ...flag-is- ... ) with Wireshark.
+5. (26%, distributed as previous one) Analyze key13.exe. Practice all dynamic analysis as previous one on this sample and find its network activities (HTTP traffic: HTTP GET /?flag=... ) with Wireshark.
 
 
 ### 3. Review questions (Optional)
@@ -48,7 +55,7 @@ This lab is revised from [Samscalss: Basic dynamic analysis](https://bowneconsul
 
 **Demo video**
 
-No demo video. Please follow the instructions in [Samscalss: Basic dynamic analysis](https://bowneconsultingcontent.com/pub/PMA/pma221/pma221.htm) exactly.
+
 
 ## Reference
 * [Samscalss: Basic dynamic analysis](https://bowneconsultingcontent.com/pub/PMA/pma221/pma221.htm)
