@@ -48,7 +48,7 @@ This lab is revised from [Samscalss: Basic dynamic analysis](https://bowneconsul
 
 **Demo video**
 
-* [Lab09: Malware analysis II: basic dynamic analysis]()
+No demo video. Please follow the instructions in [Samscalss: Basic dynamic analysis](https://bowneconsultingcontent.com/pub/PMA/pma221/pma221.htm) exactly.
 
 ## Reference
 * [Samscalss: Basic dynamic analysis](https://bowneconsultingcontent.com/pub/PMA/pma221/pma221.htm)
