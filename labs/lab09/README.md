@@ -36,7 +36,7 @@ This lab is revised from [Samscalss: Basic dynamic analysis](https://bowneconsul
       1. It creates an executable file in the Windows directory, find the executable
       2. It creates persistence by modifying the run registry key for the current user, find the registry key
       3. Open notepad and type some text, then go to the folder where key.exe is, find log.txt and open it. You see the captured keystrokes.
-   5. (2%) In Process Explorer, right click key.exe and choose Kill Process. This stops the keylogger for the current session. However, the malware has written itself into the registry, so it will start back up at the next reboot.
+   5. (2%) In Process Explorer, right click key.exe and choose Kill Process. This stops the keylogger for the current session. However, the malware has written autorun entry into the registry, so it will start back up at the next reboot.
    6. (2%) Restart the machine, Open Process Explorer, find and click the new keylogger file, vmx32to64.exe. From the Process Explorer menu bar, click View, "Show Lower Pane" View, "Lower Pane View", Handles for more info.
    7. (2%) Remove persistence. Run Autoruns for Windows, find the registry key created by key.exe and delete it.
 4. (26%, distributed as previous one) Analyze key12.exe. Practice all dynamic analysis as previous one on this sample and find its network activities (DNS traffic) with Wireshark.
