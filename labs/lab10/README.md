@@ -43,7 +43,7 @@ With IDA free, analyze the following malwares:
       2. (2%) The string "\\cmd.exe /c" appears in text mode. Click in the word cmd so it's highlighted and press Ctrl+x. A "xrefs to aCmd_exeC" box appears, double click the ref sub_1000FF58+278. There are two boxes of code use this string, one that starts a string with "cmd.exe -c" and the other that starts it with "command.exe /c". This looks like a remote shell, executing commands from the botmaster for either a 32-bit or 16-bit system.
       3. (2%) Drag the code boxes down to see the module containing "Hi, Master". This looks like a message the bot sends to the botmaster, further confirming that this is a RAT (Remote Administration Tool).
       4. (2%) Close IDA. Don't save the database.
-2. (80%) Find the conditions for each [crackme](https://en.wikipedia.org/wiki/Crackme) to see the congratulation message. For each crackme, steps need to be complete are shown in the first one.
+2. (80%) Find the conditions for each [crackme](https://en.wikipedia.org/wiki/Crackme) to see the congratulation message. For each crackme, steps need to be completed are shown as in the first one.
    1. (20%) crackme-121-1.exe ( Find a password)
       1. (2%) Run in the command prompt without parameters, see how to use it
       2. (2%) Run in the command prompt with a guess, see error message
