@@ -63,7 +63,7 @@ With IDA free, analyze the following malwares:
 
 **Demo video**
 
-* [Lab10: Malware analysis III: advanced static analysis]()
+* [Lab10: Malware analysis III: advanced static analysis](https://youtu.be/0y5eQ3R7Dy0)
 
 ## Reference
 * [Samscalss: Analyzing malwares with IDA Pro](https://samsclass.info/126/proj/PMA303c.htm)

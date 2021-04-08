@@ -142,6 +142,8 @@ Online resources and examples
         * [Kernel debugger](https://en.wikipedia.org/wiki/Kernel_debugger)
         * [GNU Debugger](https://en.wikipedia.org/wiki/GNU_Debugger)
         * [WinDbg](https://en.wikipedia.org/wiki/WinDbg)
+        * [ImmunityDebugger](https://github.com/kbandla/ImmunityDebugger)
+        * [ollydbg](http://www.ollydbg.de/download.htm)
 
 * Tools
   * [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
