@@ -28,7 +28,7 @@ This lab is revised from [Samscalss: Simple EXE Hacking with Ollydbg](https://sa
 
 
 ### 2. Tasks (100%)
-1. With x64dbg 32-bit, practice dynamic analysis techniques on the following samples. The addresses below may be different on you machine, it is fine.
+1. (40%) With x64dbg 32-bit, practice dynamic analysis techniques on the following samples. The addresses below may be different on you machine, it is fine.
    1. (23%,1% for each step) Analyzing sample [putty]() with the following steps:
       1. Find and record the popular Hashes of putty.exe with "CRC SHA" right-click popup menu entry
       2. Create a local user
