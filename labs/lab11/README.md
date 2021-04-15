@@ -79,7 +79,7 @@ This lab is revised from [Samscalss: Simple EXE Hacking with Ollydbg](https://sa
       2. (6%) Patch the exe files
       3. (6%) Run the patched exe files and collect the outputs
       4. (4%) Collect the single character from each patched exe file output, put them in the alphabetical order of the exe file names.
-   3. (30%) use bintool32.exe to patch the 19 exe files in folder 256exes, each file output a single character. What are they?
+   3. (30%) use bintool32.exe to patch the 256 exe files in folder 256exes, each file output a single character. What are they?
       1. (6%) Play with the exe files, try at least two
       2. (9%) Patch the exe files
       3. (9%) Run the patched exe files and collect the outputs
@@ -93,7 +93,7 @@ This lab is revised from [Samscalss: Simple EXE Hacking with Ollydbg](https://sa
 
 **Demo video**
 
-
+* [Lab 11: Malware Analysis Part IV: Advanced Dynamic Analysis](https://youtu.be/NkainZ5SPpE)
 
 ## Reference
 * _debuggers_
