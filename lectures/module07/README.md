@@ -169,12 +169,17 @@ Online resources and examples
   * [ida](https://www.hex-rays.com/products/ida/support/download_freeware/)
   * [apimonitor](http://www.rohitab.com/apimonitor)
     * [API Monitoring and Hooking for Offensive Tooling](https://www.ired.team/offensive-security/code-injection-process-injection/api-monitoring-and-hooking-for-offensive-tooling)
+    * [RdpThief: Extracting Clear-text Credentials from Remote Desktop Clients](https://www.mdsec.co.uk/2019/11/rdpthief-extracting-clear-text-credentials-from-remote-desktop-clients/)
+      * [RdpThief](https://github.com/0x09AL/RdpThief)
   * [windbg](http://windbg.info/)
     * [Common WinDbg Commands](http://windbg.info/doc/1-common-cmds.html)
     * [livekd](https://docs.microsoft.com/en-us/sysinternals/downloads/livekd)
   * [immunity debugger](https://www.immunityinc.com/products/debugger/)
   * [jsign](https://github.com/ebourg/jsign)
     * [Microsoft Authenticode Code Signing in Linux with Jsign](https://www.ssl.com/how-to/microsoft-authenticode-code-signing-in-linux-with-jsign/)
+    * [Tools to Sign Files and Check Signatures](https://docs.microsoft.com/en-us/windows/win32/seccrypto/tools-to-sign-files-and-check-signatures)
+      * [Where is the digital signature stored when code signing a exe file in windows?](https://stackoverflow.com/questions/47646135/where-is-the-digital-signature-stored-when-code-signing-a-exe-file-in-windows/47650900)
+    * [signcode](https://linux.die.net/man/1/signcode)
 
 -------------------
 
@@ -189,7 +194,11 @@ Online resources and examples
   * [ghidra](https://ghidra-sre.org/)
 * [Rootkits and Bootkits](https://bootkits.io/)
   * [code](https://github.com/bootkitsbook/)
-* [bochs](https://sourceforge.net/projects/bochs/)
+* _os debug_
+  * [bochs](https://sourceforge.net/projects/bochs/)
+  * [Debugging with QEMU](https://en.wikibooks.org/wiki/QEMU/Debugging_with_QEMU)
+    * [Kernel debugging](https://wiki.osdev.org/Kernel_Debugging)
+  * [volume boot record](https://en.wikipedia.org/wiki/Volume_boot_record)
 * [11 Best Malware Analysis Tools and Their Features](https://www.varonis.com/blog/malware-analysis-tools/)
 * [Five PE Analysis Tools Worth Looking At](https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at)
 * [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/)

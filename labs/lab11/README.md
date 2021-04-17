@@ -20,7 +20,7 @@ This lab is revised from [Samscalss: Simple EXE Hacking with Ollydbg](https://sa
 
 **Prerequisite**
 
-1. Work in the Windows VM with protection disabled and OpenSSH installed in Lab03.
+1. Work in the Windows VM with protection disabled in Lab03 and OpenSSH installed in Lab04.
 2. Download [samples.7z](./tools/samples.7z), archive password is "samples".
 3. Download [bintool.7z](./tools/bintool.7z), archive password is "bintool"
 4. Right click any file, from the popup menu find the item 'CRC SHA', if you don't have this, download and install [7-zip](https://www.7-zip.org/)
