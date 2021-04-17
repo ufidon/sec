@@ -114,3 +114,6 @@ This lab is revised from [Samscalss: Simple EXE Hacking with Ollydbg](https://sa
     * [Code cave](https://en.wikipedia.org/wiki/Code_cave)
     * [What is a code cave, and is there any legitimate use for one?](https://stackoverflow.com/questions/787100/what-is-a-code-cave-and-is-there-any-legitimate-use-for-one)
     * [The Beginners Guide to Codecaves](https://www.codeproject.com/Articles/20240/The-Beginners-Guide-to-Codecaves)
+  * [minesweeper cheats](https://minesweepergame.com/minesweeper_cheats.php)
+    * [Minesweeper, Behind the scenes](https://www.codeproject.com/Articles/3501/Minesweeper-Behind-the-scenes)
+    * [Enhancement for the cool Minesweeper Memory Reader](https://www.codeproject.com/Articles/4139/Enhancement-for-the-cool-Minesweeper-Memory-Reader)
