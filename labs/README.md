@@ -13,6 +13,6 @@ Online resources and examples
 * Lab09: Malware analysis II: basic dynamic analysis
 * Lab10: Malware analysis III: advanced static analysis
 * Lab11: Malware analysis IV: advanced dynamic analysis
-* Lab12: Malware functionality 
-* Lab13: Anti-reverse-engineering
+* Lab12: Malware reverse-engineering 
+
 
