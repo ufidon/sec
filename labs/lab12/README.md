@@ -96,12 +96,12 @@ The final grade of this course is the weighted sum of the following assessments:
 | Total | 100% |
 
 Based on the table above, answer the following questions:
-1. (2%) There are 8 quizzes, their assigned scores are 50/50/37/59/30/42/30/15. If you forgot doing quiz 4, how many points will be lost from your final grade?
+1. (2%) There are 8 quizzes, their assigned scores are 50/50/37/59/30/42/30/15. If I forgot doing quiz 4, how many points will be lost from my final grade?
 2. (4%) Each lab is assigned 100 points and there are 12 labs, 
-   1. (2%) if you forgot submitting 2 labs, how many points will be lost from your final grade?
-   2. (2%) if you missed 6 labs, can you pass this course? The pass score is 70%.
-3. (2%) If you forgot doing all quizzes, can you get an A (90%) in this course?
-4. (2%) If you got 70% in both exams, how many points will be lost from your final grade? Can you get an A (90%) in this course?
+   1. (2%) if I forgot submitting 2 labs, how many points will be lost from my final grade?
+   2. (2%) if I missed 6 labs, can I pass this course? The pass score is 70%.
+3. (2%) If I forgot doing all quizzes, can I get an A (90%) in this course?
+4. (2%) If I got 70% in both exams, how many points will be lost from my final grade? Can I get an A (90%) in this course?
 
 
 **Demo video**
