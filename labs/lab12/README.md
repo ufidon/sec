@@ -15,7 +15,7 @@ The following tools will be used:
 * [ILSpy](https://github.com/icsharpcode/ILSpy)
 * [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 * [Python 3](https://www.python.org/downloads/)
-* [CFF explorer](https://ntcore.com/?page_id=388)
+* [Explorer Suite](https://ntcore.com/?page_id=388)
 * [strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings)
 
 
@@ -29,9 +29,10 @@ This lab is revised from [Samsclass: Reversing a .NET Executable](https://samscl
 4. Download [x64dbg](https://github.com/x64dbg/x64dbg) and extract it.
 5. Download [ILSpy](https://github.com/icsharpcode/ILSpy) and extract it.
 6. Download [strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings) and extract it.
-7. Download [Python 3](https://www.python.org/downloads/) and install it.
-8. If you didn't install Visual Studio in Lab09, download [Visual Studio](https://visualstudio.microsoft.com/downloads/) and install it following this [video](https://youtu.be/vtiv_vyaKk0), from time 2:20 to 11:38.
-9. [Install .NET 3.5 on Windows Server 2019](https://support.solarwinds.com/SuccessCenter/s/article/Install-NET-3-5-on-Windows-Server-2019?language=en_US)
+7. Download [Explorer Suite](https://ntcore.com/?page_id=388) and install it.
+8. Download [Python 3](https://www.python.org/downloads/) and install it.
+9. If you didn't install Visual Studio in Lab09, download [Visual Studio](https://visualstudio.microsoft.com/downloads/) and install it following this [video](https://youtu.be/vtiv_vyaKk0), from time 2:20 to 11:38.
+10. [Install .NET 3.5 on Windows Server 2019](https://support.solarwinds.com/SuccessCenter/s/article/Install-NET-3-5-on-Windows-Server-2019?language=en_US)
    ```batch
    REM 1. Run Command Prompt as administrator, execute the following command:
    DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
